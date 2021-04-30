@@ -540,9 +540,9 @@ background-color: #00cdce;
   text-align: center;
   padding: 21px 14px;
 }
-.agents__item .agents__info img{
+.agents__item img{
  width: 100%;
- height: auto;
+ height: 100%;
 }
 .agents__item .agents__info h3{
   color: #00CDCE;
@@ -575,12 +575,6 @@ background-color: #00cdce;
    line-height: 2.5rem;
    margin: 0 5px;
    transition: all 0.5s;
-}
-.agents__item .agents__info:nth-child(2){
-  margin-right: 2.5px;
-}
-.agents__item .agents__info:nth-child(4){
-  margin-right: 2.5px;
 }
 .agents__item .agents__info ul li:nth-child(1):hover a i{
    background-color: #3b5998;;
