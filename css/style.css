@@ -585,13 +585,16 @@ background-color: #00cdce;
 .agents__item .agents__info ul li:nth-child(3):hover a i{
   background: #f26522;
 }
-/* Contact Us */
-#contact .contact-top{
- 
+/* map */
+#map div{
   border: 2px solid #00b6e3;
   background: #bbb;
   padding: 1rem;
   margin-bottom: 63px;
+}
+/* Contact Us */
+#contact {
+
 }
 
 .contact__form .Form-control{
@@ -599,7 +602,7 @@ background-color: #00cdce;
   color: #A49999;
   border: none;
   border-bottom: 1.5px solid #000;
-  font-size: 15px;
+  font-size: 14px;
   background: #EFEFEF;
   outline: none;
   font-family: 'Segoe UI', sans-serif;
@@ -655,5 +658,90 @@ textarea{
   transition: all 0.5s;
 }
 .contact__form .input_line:hover::after{
+  opacity: 1;
+}
+footer{
+  background: #00cdce;
+  padding: 2.5rem;
+  margin-top: 35px;
+}
+footer .footer__content{
+ 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  letter-spacing: 1px;
+ 
+}
+footer .footer__content p{
+  margin-bottom: 0;
+  font-size: 15px;
+  color: #fff;
+  margin-left: -35px;
+}
+footer .footer__content p a{
+  color: red;
+  transition: all 0.5s;
+  font-family: 'Segoe UI', sans-serif;
+}
+footer .footer__content p a:hover{
+  color: white;
+}
+
+footer .footer__content ul{
+  display: flex;
+  list-style: none;
+  padding: 5px 0;
+  margin-bottom: 0;
+}
+footer .footer__content ul li a i{
+  color: white;
+  font-size: 1.6rem;
+  height: 3rem;
+  width: 3rem;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 3rem;
+  margin: 0 10px;
+  transition: all 0.5s;
+}
+footer .footer__content ul li:nth-child(1):hover a i{
+  color: #3b5998;;
+}
+footer .footer__content ul li:nth-child(2):hover a i{
+  color: #55acee;
+}
+footer .footer__content ul li:nth-child(3):hover a i{
+  color: #f26522;
+}footer .footer__content ul li:nth-child(4):hover a i{
+  color: #3b5998;;
+}
+/* backtotop */
+.btn-backtop{
+  color:#0A7DBA;
+
+  background: url(../images/arrowup.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 45px;
+}
+.backtotop{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;   
+}
+.backtotop a{
+ opacity: 0;
+}
+.backtotop .cd-top--is-visible { 
+  visibility: visible;
+  opacity: 1;
+}
+
+.backtotop .cd-top--fade-out { 
   opacity: 1;
 }
