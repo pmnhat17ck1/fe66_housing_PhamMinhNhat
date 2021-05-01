@@ -610,7 +610,7 @@ background-color: #00cdce;
   transition: all 0.5s;
 }
 textarea{
-  max-height: 16.3rem;
+  max-height: 15.6rem;
   resize: none;
   margin-bottom: -5px;
 }
